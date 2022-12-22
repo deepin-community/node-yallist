@@ -1,0 +1,29 @@
+Source: node-yallist
+Section: javascript
+Priority: optional
+Testsuite: autopkgtest-pkg-nodejs
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends:
+ debhelper-compat (= 13)
+ , dh-buildinfo
+ , node-tap <!nocheck>
+ , dh-sequence-nodejs
+Standards-Version: 4.6.0
+Homepage: https://github.com/isaacs/yallist#readme
+Vcs-Git: https://salsa.debian.org/js-team/node-yallist.git
+Vcs-Browser: https://salsa.debian.org/js-team/node-yallist
+Rules-Requires-Root: no
+
+Package: node-yallist
+Architecture: all
+Depends:
+ ${misc:Depends}
+Multi-Arch: foreign
+Description: Double linked list implementation for Node.js
+ This module allows one to create a double linked list that
+ exposes many array-like methods like push, unshift, forEach,
+ reduce, and more specific methods like forEachReverse or
+ mapReverse.
+ .
+ Node.js is an event-based server-side JavaScript engine.
