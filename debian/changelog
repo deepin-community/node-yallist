@@ -1,3 +1,10 @@
+node-yallist (4.0.0+~4.0.1-1) unstable; urgency=medium
+
+  * Team upload
+  * Embed typescript definitions and repack
+
+ -- Yadd <yadd@debian.org>  Tue, 23 Nov 2021 12:08:22 +0100
+
 node-yallist (4.0.0-2) unstable; urgency=medium
 
   * Team upload
